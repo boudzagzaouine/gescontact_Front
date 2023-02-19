@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gestioncontactapp-fc8fc": {
+      "hosting": {
+        "GestionContactApp": [
+          "gestioncontactapp-fc8fc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gestioncontactapp-fc8fc"
+  }
+}

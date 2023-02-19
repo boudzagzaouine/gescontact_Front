@@ -91,8 +91,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "GestionContactApp:build:production",
+            "firebaseProject": "gestioncontactapp-fc8fc",
+            "firebaseHostingSite": "gestioncontactapp-fc8fc"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0cb06004-9754-43dd-ba4a-c76e995c5f62"
   }
 }
